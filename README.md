@@ -1,7 +1,7 @@
 # r-tesla-telemetry
 Code in R to process Tesla Telemetry files collected by a Tesla Model 3 Performance in Track Mode
 
-Files are saved to the USB data logger port that is also used for Sentry videos. There's a silent video file of the track mode session, and a CSV format file named telemetry-v1-<date-time>.csv, there are 29 columns of data.
+Files are saved to the USB data logger port that is also used for Sentry videos. There's a silent video file of the track mode session, and a CSV format file named telemetry-v1-date-time.csv, there are 29 columns of data.
 
 This is the header line for the csv
 ```
@@ -42,7 +42,7 @@ Here are the names after reading into R
 [29] "Tire.Slip.Rear.Right....est.."  
 ```
 
-Usage `> ptf("telemetry-<date-time>.csv")`
+Usage `> ptf("telemetry-date-time.csv")`
  
 Results in laps, with the structure shown above, and lapdf as shown below
 ```
