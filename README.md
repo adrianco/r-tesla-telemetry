@@ -48,8 +48,9 @@ Results in a list of laps, with the structure shown above, and a summary data fr
 ```
 > names(lapdf)
  [1] "num"              "seconds"          "minutes"          "maxMph"          
- [5] "maxKW"            "maxBhp"           "startChargePct"   "maxBrakeTempPct" 
- [9] "maxFrontInverter" "maxRearInverter"  "maxBatteryTemp" 
+ [5] "maxKW"            "maxBhp"           "maxLateralG"      "maxAccelG"       
+ [9] "maxBrakeG"        "maxBrakePedal"    "startChargePct"   "maxBrakeTempPct" 
+[13] "maxFrontInverter" "maxRearInverter"  "maxBatteryTemp"  
  ```
  
  ptf drops lap 0, splits the rest of the data into laps, and calls plap on each to generate a row for each lap in the data frame
