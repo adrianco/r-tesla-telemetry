@@ -62,4 +62,7 @@ Results in a list of laps, with the structure shown above, and a summary data fr
  
  There's an example data file on github as well. It's truncated half way through lap 5.
  
+ To plot lateral acceleration (column 6) vs. time (column 2) for lap 3 `plot(laps[[3]][c(2,6)], type="l")`
+ 
+ To plot a map of the track (columns 5 and 4) for lap 2 `> plot(laps[[2]][c(5,4)], type="l")`
  
