@@ -42,8 +42,7 @@ Here are the names after reading into R
 [29] "Tire.Slip.Rear.Right....est.."  
 ```
 
-Usage
-    > ptf("telemetry-<date-time>.csv")
+Usage `> ptf("telemetry-<date-time>.csv")`
  
 Results in laps, with the structure shown above, and lapdf as shown below
 ```
