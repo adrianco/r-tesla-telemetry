@@ -66,3 +66,11 @@ Results in a list of laps, with the structure shown above, and a summary data fr
  
  To plot a map of the track (columns 5 and 4) for lap 2 `> plot(laps[[2]][c(5,4)], type="l")`
  
+ To see png options and save plots as png files
+ ```
+> ? png
+> png()
+> plot(laps[[2]][c(5,4)], type="l")
+> dev.off()
+```
+This results in files with names like like Rplot001.png being saved.
