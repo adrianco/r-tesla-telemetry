@@ -54,4 +54,11 @@ Results in laps, with the structure shown above, and lapdf as shown below
  
  ptf splits the data into laps, and calls plap on each to generate a row for each lap in the data frame
  
+ To install it, first visit http://www.r-project.org and download and install the package.
+ After starting R, if you know the vi editor:
+ `> ptf <- vi()` and read in or cut and paste the code from ptf.R
+ `> plap <- vi()` and read in or cut and paste the code from plap.R
+ 
+ There's an example data file uploaded as well. It's truncated half way through lap 5.
+ 
  
