@@ -41,3 +41,18 @@ Here are the names after reading into R
 [28] "Tire.Slip.Rear.Left....est.."          
 [29] "Tire.Slip.Rear.Right....est.."  
 ```
+
+Usage
+    > ptf("telemetry-<date-time>.csv")
+ 
+Results in laps, with the structure shown above, and lapdf as shown below
+```
+> names(lapdf)
+ [1] "num"              "seconds"          "minutes"          "maxMph"          
+ [5] "maxKW"            "maxBhp"           "startChargePct"   "maxBrakeTempPct" 
+ [9] "maxFrontInverter" "maxRearInverter"  "maxBatteryTemp" 
+ ```
+ 
+ ptf splits the data into laps, and calls plap on each to generate a row for each lap in the data frame
+ 
+ 
