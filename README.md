@@ -44,7 +44,7 @@ Here are the names after reading into R
 
 Usage `> ptf("telemetry-date-time.csv")`
  
-Results in laps, with the structure shown above, and lapdf as shown below
+Results in a list of laps, with the structure shown above, and a summary data frame lapdf as shown below
 ```
 > names(lapdf)
  [1] "num"              "seconds"          "minutes"          "maxMph"          
@@ -52,7 +52,7 @@ Results in laps, with the structure shown above, and lapdf as shown below
  [9] "maxFrontInverter" "maxRearInverter"  "maxBatteryTemp" 
  ```
  
- ptf splits the data into laps, and calls plap on each to generate a row for each lap in the data frame
+ ptf drops lap 0, splits the rest of the data into laps, and calls plap on each to generate a row for each lap in the data frame
  
  To install it, first visit http://www.r-project.org and download and install the package.
  After starting R, if you know the vi editor:
