@@ -58,7 +58,8 @@ Results in a list of laps, with the structure shown above, and a summary data fr
  After starting R, if you know the vi editor:
  `> ptf <- vi()` and read in or cut and paste the code from ptf.R
  `> plap <- vi()` and read in or cut and paste the code from plap.R
+ `> ls()` to see what data and scripts are in place, `> q()` to quit R.
  
- There's an example data file uploaded as well. It's truncated half way through lap 5.
+ There's an example data file on github as well. It's truncated half way through lap 5.
  
  
