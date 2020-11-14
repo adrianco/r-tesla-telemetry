@@ -1,5 +1,5 @@
 # r-tesla-telemetry
-Simple code in R to process Tesla Telemetry files collected by a Tesla Model 3 Performance in Track Mode. See rs-tesla-telemetry for an RStudio Shiny App version. This code is for command line old-school R users, and was created before I figured out how to use RStudio and connect it to Github.
+Simple code in R to process Tesla Telemetry files collected by a Tesla Model 3 Performance in Track Mode. See rs-tesla-telemetry for an RStudio Shiny App version. This code is for command line old-school R users, and was created before I figured out how to use RStudio and connect it to Github. See rs-tesla-telemetry for more developed code with a Shiny UI and RStudio support.
 
 Files are saved to the USB data logger port that is also used for Sentry videos. There's a silent video file of the track mode session, and a CSV format file named telemetry-v1-date-time.csv, there are 29 columns of data.
 
